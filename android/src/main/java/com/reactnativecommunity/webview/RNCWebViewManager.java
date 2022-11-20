@@ -173,10 +173,6 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
     };
   }
 
-  public RNCWebViewManager(WebViewConfig webViewConfig) {
-    mWebViewConfig = webViewConfig;
-  }
-
   @Override
   public String getName() {
     return REACT_CLASS;
